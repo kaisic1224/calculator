@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap">
+    <title>Calculator</title>
+</head>
+
+<body class="light">
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator-header">
+                <div class="formula"></div>
+                <div class="result"></div>
+            </div>
+            <div class="calculator-body">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div id="btn(" role="button" class="btn" tabindex="0">(</div>
+                            </td>
+                            <td>
+                                <div id="btn)" role="button" class="btn" tabindex="0">)</div>
+                            </td>
+                            <td id="large">
+                                <div id="btnClr" role="button" class="btn" tabindex="0">AC</div>
+                                <div id="btnClrRes" role="button" class="btn" tabindex="0">CE</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="btn7" role="button" class="btn" tabindex="0">7</div>
+                            </td>
+                            <td>
+                                <div id="btn8" role="button" class="btn" tabindex="0">8</div>
+                            </td>
+                            <td>
+                                <div id="btn9" role="button" class="btn" tabindex="0">9</div>
+                            </td>
+                            <td>
+                                <div id="btnDiv" role="button" class="btn" tabindex="0">÷</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="btn4" role="button" class="btn" tabindex="0">4</div>
+                            </td>
+                            <td>
+                                <div id="btn5" role="button" class="btn" tabindex="0">5</div>
+                            </td>
+                            <td>
+                                <div id="btn6" role="button" class="btn" tabindex="0">6</div>
+                            </td>
+                            <td>
+                                <div id="btnMul" role="button" class="btn" tabindex="0">×</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="btn1" role="button" class="btn" tabindex="0">1</div>
+                            </td>
+                            <td>
+                                <div id="btn2" role="button" class="btn" tabindex="0">2</div>
+                            </td>
+                            <td>
+                                <div id="btn3" role="button" class="btn" tabindex="0">3</div>
+                            </td>
+                            <td>
+                                <div id="btnMin" role="button" class="btn" tabindex="0">-</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="btn0" role="button" class="btn" tabindex="0">0</div>
+                            </td>
+                            <td>
+                                <div id="btn." role="button" class="btn" tabindex="0">.</div>
+                            </td>
+                            <td id="eql">
+                                <div id="btnEql" role="button" class="btn" tabindex="0">=</div>
+                            </td>
+                            <td>
+                                <div id="btnAdd" role="button" class="btn" tabindex="0">+</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="calendar-footer">
+                <span>Dark Theme</span>
+                <div class="switch">
+                    <div class="rounded-switch">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="calc.js"></script>
+</body>
+
+</html>
